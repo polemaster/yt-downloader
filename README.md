@@ -9,7 +9,7 @@ depending on your OS. It also has a possibility of merging the downloaded video 
 * *(optional)* ***ffmpeg*** *(must be also included in your path)*
 ## Installation
 ```pip install pytube``` \
-*(optional) ![ffmpeg.org](https://ffmpeg.org/)*
+*(optional) [ffmpeg.org](https://ffmpeg.org/)*
 ## Usage
 You don't need really need ffmpeg installed. In that case, answer ***no*** to the question about merging files. The program will then download
 video and audio files separately without merging them. \
@@ -18,7 +18,7 @@ After installing pytube, you can download main.py file from this projects and ru
 ```python main.py```      &emsp;(Linux) \
 Next follow the instructions given by the program.
 ## Sources
-![pytube.io](https://pytube.io/)       &emsp;&emsp;&emsp;(pytube documentation)
+[pytube.io](https://pytube.io/)       &emsp;&emsp;&emsp;(pytube documentation)
 ## Additional notes
 * The reason that this project downloads video and audio separately is that YouTube supports a streaming technique called Dynamic Adaptive Streaming over HTTP (DASH). Due to this fact, pytube can download videos together with audio (called progressive) only up to 720p resolution. So I decided to take advantage of
 DASH and implemented adaptive (DASH) streams (in pytube) which support higher resolutions.
